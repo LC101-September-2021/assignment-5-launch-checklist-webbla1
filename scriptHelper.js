@@ -27,7 +27,6 @@ function validateInput(testInput) {
 }
 
 function formSubmission (document, list, pilot, copilot, fuelLevel, cargoLevel) {
-    console.log(`formSubmission is running`);
     //DOM elements
     let pilotStatus = document.getElementById('pilotStatus');
     let copilotStatus = document.getElementById('copilotStatus');
